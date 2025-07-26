@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Picrew WIP manager
 // @namespace    https://github.com/7evy
-// @version      1.0.1
+// @version      1.0.2
 // @description  Save and manage WIPs on Picrew's image makers
 // @author       7evy
 // @run-at       document-idle
