@@ -5,4 +5,4 @@ Enables the "save" feature on PC (for free).
 This script adds a toolbar to save, load and delete Picrew's image maker contexts.
 You can switch between several characters on any image maker.
 
-:warning: Updates to an image maker can break your saved works.
+⚠️ Updates to an image maker can break your saved works.
