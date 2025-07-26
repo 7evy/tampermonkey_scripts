@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Picrew WIP manager
 // @namespace    https://github.com/7evy
-// @version      1.0.2
+// @version      1.0.3
 // @description  Save and manage WIPs on Picrew's image makers
 // @author       7evy
 // @run-at       document-idle
@@ -48,22 +48,13 @@
     #wip-toolbox input, #wip-toolbox select {
       width: 120px;
     }
-    #save-wip:hover {
+    #save-wip, #load-wip, #delete-wip {
+      color: white !important;
+    }
+    #save-wip:hover, #load-wip:hover, #delete-wip:hover {
       background: rgba(50,50,50,0.8);
     }
-    #save-wip:active {
-      background: rgba(100,100,100,0.8);
-    }
-    #load-wip:hover {
-      background: rgba(50,50,50,0.8);
-    }
-    #load-wip:active {
-      background: rgba(100,100,100,0.8);
-    }
-    #delete-wip:hover {
-      background: rgba(50,50,50,0.8);
-    }
-    #delete-wip:active {
+    #save-wip:active, #load-wip:active, #delete-wip:active {
       background: rgba(100,100,100,0.8);
     }
   `;
